@@ -1,0 +1,5 @@
+[module/keyboard-layout]
+type = custom/script
+interval = 1
+exec = ~/.config/polybar/scripts/keyboard-layout.sh
+click-left = ~/.config/polybar/scripts/keyboard-layout.sh --toggle &

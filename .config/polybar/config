@@ -1,0 +1,24 @@
+;==========================================================
+;
+;   ██████╗  ██████╗ ██╗  ██╗   ██╗██████╗  █████╗ ██████╗
+;   ██╔══██╗██╔═══██╗██║  ╚██╗ ██╔╝██╔══██╗██╔══██╗██╔══██╗
+;   ██████╔╝██║   ██║██║   ╚████╔╝ ██████╔╝███████║██████╔╝
+;   ██╔═══╝ ██║   ██║██║    ╚██╔╝  ██╔══██╗██╔══██║██╔══██╗
+;   ██║     ╚██████╔╝███████╗██║   ██████╔╝██║  ██║██║  ██║
+;   ╚═╝      ╚═════╝ ╚══════╝╚═╝   ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝
+;
+;         https://github.com/polybar/polybar
+;
+;==========================================================
+
+;import settings
+include-file = /mnt/nvme0n1p8/me/.config/polybar/settings/default
+include-file = /mnt/nvme0n1p8/me/.config/polybar/settings/global-wm
+
+;import colors
+include-file = /mnt/nvme0n1p8/me/.config/polybar/colors/default
+
+;import bar(s)
+include-file = /mnt/nvme0n1p8/me/.config/polybar/bars/primary
+; include-file = /mnt/nvme0n1p8/me/.config/polybar/bars/pomodoro
+

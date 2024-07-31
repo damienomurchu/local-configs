@@ -1,0 +1,6 @@
+[module/display]
+type = custom/script
+exec = ~/.config/polybar/scripts/display.sh
+interval = 1
+double-click-left = setxkbmap -layout gb
+double-click-right = setxkbmap -layout us

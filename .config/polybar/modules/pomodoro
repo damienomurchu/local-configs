@@ -1,0 +1,26 @@
+[module/pomodoro]
+type = custom/script
+hidden = true
+
+interval = 1
+format-background = ${color.mf}
+format-foreground = ${color.fg}
+exec = "python /mnt/nvme0n1p8/me/.config/polybar/scripts/polybar-pomodoro/pomo_action.py --opt='update'"
+
+click-left = python /mnt/nvme0n1p8/me/.config/polybar/scripts/polybar-pomodoro/pomo_action.py --opt='left'
+click-middle = python /mnt/nvme0n1p8/me/.config/polybar/scripts/polybar-pomodoro/pomo_action.py --opt='middle'
+click-right = python /mnt/nvme0n1p8/me/.config/polybar/scripts/polybar-pomodoro/pomo_action.py --opt='right'
+
+
+[module/pomodoro_i]
+type = custom/text
+hidden = true
+
+content = ♛
+content-background = ${color.purple}
+content-foreground = ${color.fg}
+content-padding = 1
+
+click-left = python /mnt/nvme0n1p8/me/.config/polybar/scripts/polybar-pomodoro/pomo_action.py --opt='left'
+click-middle = python /mnt/nvme0n1p8/me/.config/polybar/scripts/polybar-pomodoro/pomo_action.py --opt='middle'
+click-right = python /mnt/nvme0n1p8/me/.config/polybar/scripts/polybar-pomodoro/pomo_action.py --opt='right'
