@@ -1,0 +1,31 @@
+
+
+
+#+User-affecting +API-affecting:                 
+#  💥:breaking-change   🎉:new-api          ✨:api-feature     
+#💥
+#🎉
+#✨
+
+#+User-affecting !API-affecting:
+#  🩹:bug-fix           🧑:ux-improvement   🧽:cleanup-code
+#🩹
+#🧑
+#🧽
+
+
+
+#!User-affecting !API-affecting:
+#  ✅:updated-tests     🤖:automation       🔒️:security
+
+#✅
+#🤖
+#🔒️
+
+
+
+# [optional body]
+
+
+
+# [optional footer]
